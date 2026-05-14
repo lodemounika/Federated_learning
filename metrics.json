@@ -1,0 +1,171 @@
+{
+  "baseline_metrics": {
+    "accuracy": 39.2,
+    "precision": 31.76,
+    "recall": 39.2,
+    "f1_score": 29.87,
+    "roc_auc": 54.6,
+    "confusion_matrix": [
+      [
+        61,
+        255,
+        3,
+        0,
+        0
+      ],
+      [
+        57,
+        328,
+        8,
+        0,
+        0
+      ],
+      [
+        44,
+        185,
+        3,
+        0,
+        0
+      ],
+      [
+        6,
+        22,
+        1,
+        0,
+        0
+      ],
+      [
+        5,
+        22,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "federated_metrics": {
+    "accuracy": 0.371,
+    "precision": 0.3090958306399483,
+    "recall": 0.371,
+    "f1": 0.3099385964912281
+  },
+  "federated_accuracies": [
+    0.353,
+    0.38,
+    0.369,
+    0.362,
+    0.371
+  ],
+  "top_features": [
+    {
+      "feature": "srv_diff_host_rate",
+      "importance": 0.0369
+    },
+    {
+      "feature": "src_bytes",
+      "importance": 0.0368
+    },
+    {
+      "feature": "srv_count",
+      "importance": 0.0366
+    },
+    {
+      "feature": "diff_srv_rate",
+      "importance": 0.0365
+    },
+    {
+      "feature": "dst_host_same_src_port_rate",
+      "importance": 0.0358
+    },
+    {
+      "feature": "dst_host_same_srv_rate",
+      "importance": 0.0358
+    },
+    {
+      "feature": "dst_host_srv_diff_host_rate",
+      "importance": 0.0357
+    },
+    {
+      "feature": "dst_host_serror_rate",
+      "importance": 0.0355
+    },
+    {
+      "feature": "rerror_rate",
+      "importance": 0.0355
+    },
+    {
+      "feature": "count",
+      "importance": 0.0352
+    }
+  ],
+  "sample_predictions": [
+    {
+      "sample_index": 0,
+      "predicted_class": "Normal",
+      "confidence": 40.0,
+      "class_probs": {
+        "DoS": 30.0,
+        "Normal": 40.0,
+        "Probe": 25.0,
+        "R2L": 1.67,
+        "U2R": 3.33
+      }
+    },
+    {
+      "sample_index": 1,
+      "predicted_class": "Normal",
+      "confidence": 40.0,
+      "class_probs": {
+        "DoS": 33.33,
+        "Normal": 40.0,
+        "Probe": 25.0,
+        "R2L": 0.0,
+        "U2R": 1.67
+      }
+    },
+    {
+      "sample_index": 2,
+      "predicted_class": "Normal",
+      "confidence": 33.33,
+      "class_probs": {
+        "DoS": 30.0,
+        "Normal": 33.33,
+        "Probe": 25.0,
+        "R2L": 5.0,
+        "U2R": 6.67
+      }
+    },
+    {
+      "sample_index": 3,
+      "predicted_class": "DoS",
+      "confidence": 33.33,
+      "class_probs": {
+        "DoS": 33.33,
+        "Normal": 26.67,
+        "Probe": 30.0,
+        "R2L": 5.0,
+        "U2R": 5.0
+      }
+    },
+    {
+      "sample_index": 4,
+      "predicted_class": "Normal",
+      "confidence": 41.67,
+      "class_probs": {
+        "DoS": 28.33,
+        "Normal": 41.67,
+        "Probe": 21.67,
+        "R2L": 3.33,
+        "U2R": 5.0
+      }
+    }
+  ],
+  "privacy_features": {
+    "differential_privacy": true,
+    "secure_aggregation": true,
+    "poisoning_attack_simulation": true,
+    "federated_learning": true
+  },
+  "federated_nodes": 3,
+  "training_rounds": 5
+}
