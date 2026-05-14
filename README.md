@@ -1,3 +1,5 @@
+
+
 # 🔐 Federated Learning Based Privacy-Preserving Intrusion Detection System
 
 ## 📌 Project Overview
@@ -269,9 +271,6 @@ Steps:
 4. Push code
 5. Create Pull Request
 
-# 🎥 Project Demo Video
-
-[▶️ Watch Demo Video](C:\Users\DELL\Videos\Screen Recordings\Screen Recording 2026-05-07 205422.mp4)
 # 📜 License
 
 This project is developed for educational and research purposes.
