@@ -1,8 +1,8 @@
 
 
-# 🔐 Federated Learning Based Privacy-Preserving Intrusion Detection System
+# Federated Learning Based Privacy-Preserving Intrusion Detection System
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a **Privacy-Preserving Intrusion Detection System (IDS)** using **Federated Learning** and **Machine Learning** techniques to detect cyber attacks while protecting sensitive network data.
 
@@ -25,22 +25,22 @@ The system also includes:
 
 ---
 
-# 🚀 Features
+# Features
 
-✅ Federated Learning-based IDS
-✅ Privacy-Preserving Training
-✅ Centralized vs Federated Comparison
-✅ Attack Detection & Classification
-✅ AI-Based Attack Explanation
-✅ Interactive Streamlit Dashboard
-✅ Performance Metrics Visualization
-✅ Model Training Graphs
-✅ NSL-KDD Dataset Support
-✅ Machine Learning-Based Detection
+ Federated Learning-based IDS
+ Privacy-Preserving Training
+ Centralized vs Federated Comparison
+ Attack Detection & Classification
+ AI-Based Attack Explanation
+ Interactive Streamlit Dashboard
+ Performance Metrics Visualization
+ Model Training Graphs
+ NSL-KDD Dataset Support
+ Machine Learning-Based Detection
 
 ---
 
-# 🧠 Technologies Used
+# Technologies Used
 
 | Technology         | Purpose               |
 | ------------------ | --------------------- |
@@ -55,7 +55,7 @@ The system also includes:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 Federated_learning/
@@ -81,9 +81,9 @@ Federated_learning/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
-## 1️⃣ Clone the Repository
+## 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/lodemounika/Federated_learning.git
@@ -92,7 +92,7 @@ cd Federated_learning
 
 ---
 
-## 2️⃣ Create Virtual Environment (Optional)
+## 2️ Create Virtual Environment (Optional)
 
 ### Windows
 
@@ -110,7 +110,7 @@ source venv/bin/activate
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ## Run Main System
 
@@ -152,7 +152,7 @@ streamlit run app.py
 
 ---
 
-# 📊 Workflow
+# Workflow
 
 ```text
 NSL-KDD Dataset
@@ -176,7 +176,7 @@ Dashboard Visualization
 
 ---
 
-# 🔒 Privacy-Preserving Techniques
+# Privacy-Preserving Techniques
 
 ## Federated Learning
 
@@ -195,7 +195,7 @@ Dashboard Visualization
 
 ---
 
-# 📈 Performance Metrics
+# Performance Metrics
 
 The project evaluates performance using:
 
@@ -207,7 +207,7 @@ The project evaluates performance using:
 
 ---
 
-# 📷 Dashboard Features
+# Dashboard Features
 
 The Streamlit dashboard provides:
 
@@ -220,7 +220,7 @@ The Streamlit dashboard provides:
 
 ---
 
-# 🛡️ Supported Attack Types
+# Supported Attack Types
 
 The IDS supports detection of:
 
@@ -230,7 +230,7 @@ The IDS supports detection of:
 * U2R Attacks
 * Normal Network Traffic
 
-# 📚 Dataset Used
+# Dataset Used
 
 ## NSL-KDD Dataset
 The project uses the **NSL-KDD** dataset for training and testing.
@@ -247,7 +247,7 @@ federated_training.png
 bash
 comparison_metrics.png
 
-# 🎯 Future Improvements
+# Future Improvements
 
 * Deep Learning Integration
 * Real-Time Packet Monitoring
@@ -259,7 +259,7 @@ comparison_metrics.png
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome.
 
@@ -271,16 +271,15 @@ Steps:
 4. Push code
 5. Create Pull Request
 
-# 📜 License
+#  License
 
 This project is developed for educational and research purposes.
 
 Free to use and modify for learning.
 
-# 👨‍💻 Author
+#  Author
 
 ### L. Mounika
 
-B.Tech – Artificial Intelligence & Machine Learning
-Nalla Malla Reddy Engineering College
+
 
